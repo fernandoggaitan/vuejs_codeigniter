@@ -1,0 +1,55 @@
+autoload.php
+
+Modificar:
+
+$autoload['libraries'] = array();
+
+Por:
+
+$autoload['libraries'] = array('database');
+
+Modificar:
+
+$autoload['helper'] = array();
+
+Por:
+
+$autoload['helper'] = array('url');
+
+------------------------------------------------------------------------
+
+config.php
+
+Modificar:
+
+$config['base_url'] = '';
+
+Por:
+
+$config['base_url'] = 'http://localhost:9007/organizador/';
+
+Modificar:
+
+$config['index_page'] = 'index.php';
+
+Por:
+
+$config['index_page'] = '';
+
+------------------------------------------------------------------------
+
+database.php
+
+Modificar:
+
+'hostname' => 'localhost',
+'username' => '',
+'password' => '',
+'database' => '',
+
+Por:
+
+'hostname' => 'localhost',
+'username' => 'root',
+'password' => '',
+'database' => 'organizador',
